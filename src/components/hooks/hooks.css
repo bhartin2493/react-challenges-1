@@ -1,0 +1,76 @@
+/* CSS for ShowHideTitle.js Component starts here */
+
+
+.common-container {
+    display: flex;
+    padding: 10px;
+}
+.left-content, .right-content {
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.img-container{
+    border: 1px dashed gray;
+}
+.btn-container{
+    margin-top: 100px;
+    display: flex;
+
+    .show-hide-button {
+        margin-top: 40px;
+        background-color: rebeccapurple;
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .text-class{
+        margin: 40px;
+    }
+}
+
+/* >>>>>>>> CSS for ShowHideTitle.js Component ends here >>>>>>>>>>>> */
+
+.element-container{
+    text-align: center;
+}
+.timer-button{
+    height : auto;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* .timer-button:hover {
+    border: 1px solid black;
+} */
+
+.start {
+     background-color: green;
+}
+
+.stop {
+    background-color: red;
+}
+
+.reset {
+    background-color: yellow;
+}
+
+
+
+/* ********CSS for Stopwatch.js Component starts here********* */
+
+
+
+
+/* >>>>>>>> CSS for Stopwatch.js Component ends here >>>>>>>>>>>> */
